@@ -72,8 +72,13 @@ This project includes:
 
 ## How to Run
 
-### 1. Clone the repository
+1. Download all the necessary files in the google drive: https://drive.google.com/drive/folders/1CmggAfcpb0gDFeLopkTGYJgGzNN5lJxH?usp=sharing
+The Drive should have:
+- archive (contains dataset)
+- trafficlaw_rag (contains models)
+- 523H0131_523H0147_523H0181.ipynb (contains the source code for training)
+- demo.py (contains the web demo code using already saved models from trafficlaw_rag)
 
-```bash
-git clone https://github.com/DarkDipp/Natural-Language-Processing.git
-cd Natural-Language-Processing
+2. Run the demo.py, wait for the code to generate the Web URL.
+3. Copy the URL to the web browser, it should work.
+
